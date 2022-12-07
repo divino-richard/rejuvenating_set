@@ -1,0 +1,35 @@
+.view_product_con{
+    display: flex;
+    padding: 2rem;
+}
+.view_product_con img{
+    width: 400px;
+    height: 400px;
+    border-radius: 7px;
+    object-fit: contain;
+}
+.view_product_con a{
+    background-color: #172e51;
+    color: #FFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.product_info{
+    padding: 0 2rem;
+}
+.product_info p{
+    padding: 5px 0;
+}
+.product_info span{
+    font-size: 25px;
+    color: #172e51;
+}
+
+.seller_info{
+    padding: 2rem;
+}
+.seller_info p{
+    padding: 5px 0;
+}
+

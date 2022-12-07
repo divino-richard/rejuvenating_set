@@ -1,0 +1,32 @@
+.dashboard{
+    padding: 2rem;
+    width: 60%;
+    color: #5f5f5f;    
+}
+.dashboard h3{
+    color: #4d4c4c;
+}
+.dashboard section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.dashboard div, .sales{
+    height: 200px;
+    border-radius: 7px;
+    border: 1px solid #787777;
+    margin: 10px 10px 0 0;
+    padding: 10px;
+}
+.dashboard div{
+    width: 200px;
+}
+.sales{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.dashboard span{
+    font-size: 5vw;
+    font-weight: 600;
+    margin-top: 1rem;
+}

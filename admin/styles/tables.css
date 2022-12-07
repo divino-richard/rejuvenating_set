@@ -1,0 +1,23 @@
+.table_con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #535252;
+}
+.table_con h3{
+    padding: 2rem 0;
+}
+table{
+    margin-left:  2rem;
+}
+table, td, tr, th{
+    border: 1px solid #535252;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+table img{
+    height: 50px;
+    width: 60px;
+    border-radius: 5px
+}

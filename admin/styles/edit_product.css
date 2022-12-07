@@ -1,0 +1,31 @@
+.edit_product_con{
+    width: 75%;
+}
+.edit_product_con h3{
+    color: #444343;
+    padding: 2rem;
+}
+.edit_product{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+}
+.edit_product input,
+.edit_product select,
+.edit_product textarea {
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #727272;
+}
+.edit_product input[type="submit"]{
+    background-color: #172e51;
+    color: #FFF;
+    padding: 10px 5px;
+    cursor: pointer;
+}
+.edit_product input[type="submit"]:hover{
+    background-color: #FFF;
+    color: #000;
+}

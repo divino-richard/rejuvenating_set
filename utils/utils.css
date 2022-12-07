@@ -1,0 +1,37 @@
+
+.popup_con{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    position: absolute;
+    top: -5rem;
+    left: 0;
+    z-index: 1;
+    animation: fall_down 5s;
+}
+
+@keyframes fall_down {
+    0%{
+        top: -5rem;
+    }
+    10%{
+        top: 1rem;
+    }
+    90%{
+        top: 1rem;
+    }
+    100%{
+        top: -5rem;
+    }
+}
+
+.popup_msg{
+    width: 15rem;
+    padding: 20px 15px; 
+    text-align: center;  
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px gray; 
+}
+.popup_msg p{
+    margin: 0;
+}
